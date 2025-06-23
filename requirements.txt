@@ -1,6 +1,6 @@
 transformers
 python
-tinyllama model
+tinyllama-model
 datasets
 torch
 peft
