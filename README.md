@@ -48,7 +48,8 @@ llm-sexual-health-ai/
 
 ---
 
-##🔄 Finetuning Pipeline (LoRA)
+## 🔄 Finetuning Pipeline (LoRA)
+
 Load and clean data from combined.csv
 
 Convert to instruction format → tinyllama_train.jsonl
@@ -61,7 +62,7 @@ Train with HuggingFace Trainer API
 
 Save fine-tuned model to models/finetuned-tinyllama/
 
-##🛡️ Ethical Considerations
+## 🛡️ Ethical Considerations
 
 No real user data was used.
 
