@@ -48,6 +48,17 @@ llm-sexual-health-ai/
 
 ---
 
+##🔄 Finetuning Pipeline (LoRA)
+Load and clean data from combined.csv
+
+Convert to instruction format → tinyllama_train.jsonl
+
+Apply tokenizer + max tokenization
+
+Configure PEFT LoRA
+
+Train with HuggingFace Trainer API
+
 ## 💻 How to Run
 
 ### 🔧 Installation
@@ -62,18 +73,6 @@ python app.py
 
 ##🖥️ Launch Streamlit Web Interface
 python run_app.py
-
-
-##🔄 Finetuning Pipeline (LoRA)
-Load and clean data from combined.csv
-
-Convert to instruction format → tinyllama_train.jsonl
-
-Apply tokenizer + max tokenization
-
-Configure PEFT LoRA
-
-Train with HuggingFace Trainer API
 
 Save fine-tuned model to models/finetuned-tinyllama/
 
