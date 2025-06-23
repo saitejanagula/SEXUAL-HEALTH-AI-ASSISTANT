@@ -55,4 +55,34 @@ llm-sexual-health-ai/
 ```bash
 git clone https://github.com/YOUR_USERNAME/llm-sexual-health-ai.git
 cd llm-sexual-health-ai
-pip install -r requirements.txt
+pip install -r requirements.txt 
+
+##🚀 Launch CLI Chatbot:
+python app.py
+
+##🖥️ Launch Streamlit Web Interface
+python run_app.py
+
+
+##🔄 Finetuning Pipeline (LoRA)
+Load and clean data from combined.csv
+
+Convert to instruction format → tinyllama_train.jsonl
+
+Apply tokenizer + max tokenization
+
+Configure PEFT LoRA
+
+Train with HuggingFace Trainer API
+
+Save fine-tuned model to models/finetuned-tinyllama/
+
+##🛡️ Ethical Considerations
+
+No real user data was used.
+
+Advice is general and not a replacement for professional diagnosis.
+
+Focused on promoting safe, respectful, and inclusive conversations.
+
+Responses were carefully validated for tone, clarity, and bias reduction.
