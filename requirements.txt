@@ -1,0 +1,8 @@
+transformers
+python
+tinyllama model
+datasets
+torch
+peft
+streamlit
+ollama
