@@ -59,6 +59,18 @@ Configure PEFT LoRA
 
 Train with HuggingFace Trainer API
 
+Save fine-tuned model to models/finetuned-tinyllama/
+
+##🛡️ Ethical Considerations
+
+No real user data was used.
+
+Advice is general and not a replacement for professional diagnosis.
+
+Focused on promoting safe, respectful, and inclusive conversations.
+
+Responses were carefully validated for tone, clarity, and bias reduction.
+
 ## 💻 How to Run
 
 ### 🔧 Installation
@@ -74,14 +86,3 @@ python app.py
 ##🖥️ Launch Streamlit Web Interface
 python run_app.py
 
-Save fine-tuned model to models/finetuned-tinyllama/
-
-##🛡️ Ethical Considerations
-
-No real user data was used.
-
-Advice is general and not a replacement for professional diagnosis.
-
-Focused on promoting safe, respectful, and inclusive conversations.
-
-Responses were carefully validated for tone, clarity, and bias reduction.
